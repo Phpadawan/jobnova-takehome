@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f6fa;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr 250px;
+  height: 100vh;
+}
+
+.sidebar {
+  background: white;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+  color: purple;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.main {
+  padding: 20px;
+}
+
+.topbar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.job-card {
+  background: white;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.recommend {
+  background: white;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}

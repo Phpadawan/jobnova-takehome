@@ -5,10 +5,43 @@
   <title>Jobnova Job Board</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <h1>Jobnova Job Board</h1>
+<div class="container">
 
-  <script src="script.js"></script>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>JobNova</h2>
+    <ul>
+      <li>Jobs</li>
+      <li>AI Mock Interview</li>
+      <li>Resume</li>
+      <li>Profile</li>
+      <li>Settings</li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <header class="topbar">
+      <input type="text" placeholder="Search jobs...">
+    </header>
+
+    <section id="jobs"></section>
+
+  </main>
+
+  <!-- Recommendation -->
+  <aside class="recommend">
+    <h3>Recommended</h3>
+    <p>Improve your interview with AI mock sessions.</p>
+    <button>Mock Interview</button>
+  </aside>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
